@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Hanken-Grotesk;
+  src: url(/public/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Hanken-Grotesk;
+  font-size: 18px;
+}
+
+:root {
+  --light-lavender: hsl(241, 100%, 89%);
+}
+
+body {
+  background-color: hsl(221, 100%, 96%);
+}
